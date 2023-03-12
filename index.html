@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polar Bear Lives Matter</title>
+    <!-- Let it Snow! Provided by the WPress Doctor-->
+<div id="snow"></div>
+<style>
+	#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+</style>
+
+
+<script>
+	document.addEventListener('DOMContentLoaded', function(){
+        var script = document.createElement('script');
+        script.src = 'scripts/particles.min.js';
+        script.onload = 
+        function(){
+                particlesJS("snow", {
+                    "particles": {
+                        "number": {
+                            "value": 200,
+                            "density": {
+                                "enable": true,
+                                "value_area": 800
+                            }
+                        },
+                        "color": {
+                            "value": "#ffffff"
+                        },
+                        "opacity": {
+                            "value": 0.6,
+                            "random": false,
+                            "anim": {
+                                "enable": false
+                            }
+                        },
+                        "size": {
+                            "value": 4,
+                            "random": true,
+                            "anim": {
+                                "enable": false
+                            }
+                        },
+                        "line_linked": {
+                            "enable": false
+                        },
+                        "move": {
+                            "enable": true,
+                            "speed": 5,
+                            "direction": "bottom",
+                            "random": true,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": true,
+                                "rotateX": 300,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+                    "interactivity": {
+                        "events": {
+                            "onhover": {
+                                "enable": false
+                            },
+                            "onclick": {
+                                "enable": false
+                            },
+                            "resize": false
+                        }
+                    },
+                    "retina_detect": true
+                });
+        }
+        document.head.append(script);
+    });
+</script>
+</head>
+<body>
+    <!-- Menu -->
+    <h1 style="color:aliceblue;font-size:50px;text-align:center">Polar Bear Lives Matter <a target="_blank" href="https://en.wikipedia.org/wiki/Polar_bear"><img width="50" src="https://en.wikipedia.org/static/images/icons/wikipedia.png"></a></h1>
+    <hr>
+    <center>
+    <table border="5" class="menu" style="background-color:#07f269;">
+        <tr>
+            <td style="width:450px;text-align:center;background-color:yellow"><a class="menu" href="index.html">Kutup Ayıları Hakkında</a></td>
+            <td style="width:450px;text-align:center;"><a  class="menu" href="futureproblems.html">Gelecekte Beklenen Sorunlar</a></td>
+            <td style="width:450px;text-align:center;"><a class="menu" href="solutions.html">Bu Sorunların Önüne Nasıl Geçebiliriz?</a></td>
+            <td style="width:450px;text-align:center;"><a class="menu" href="support.html">Nasıl Destek Oluruz?</a></td>
+        </tr>
+    </table>
+    </center>
+    <!-- Content -->
+    <div class="content">
+        <table>
+            <tr>
+                <td><img style="margin-top: 80px;" width="400" height="400" src="imgs/poalr.jpg"></td>
+                <td class="content" style="text-align: center;">
+                    <h1>Kutup Ayısı</h1>
+                    Kutup ayısı (Ursus maritimus) aynı zamanda beyaz ayı, ya da deniz ayısı, ayıgiller (Ursidae) familyasından soğuk kuzey kutup bölgesinin karlı sahillerinde ve buzullar üzerinde yaşayan ayı türüdür. Yaşamakta olan en büyük kara etoburudur (boz ayı daha büyüktür ama bir Karnivor değil omnivor sayılmaktadır) ve bulunduğu ortamdaki süper yırtıcıdır. Yaşadığı çevreye çok iyi uyum sağlamıştır. Kalın kürkü onu soğuktan korur, beyaz görünümü avlarından saklar. Kutup ayısı hem karada, hem denizde, hem buzda, hem de su içinde zorlanmadan avlanır.
+
+                    En çok balık ve foklarla beslenir. Aç kaldığı zamanlarda yüzen buz parçaları üzerine binip kilometrelerce uzaklara giderek besin arar. Fok balıklarının buz tabakasındaki soluk alma deliklerinde pusuya yatar.
+                </td>
+                <td>
+                    <img style="margin-top:60px" width="400" height="400" src="imgs/ktp.jpg" alt="yuzenayi">
+                </td>                 
+            </tr> 
+        </table> 
+        <center><iframe style="margin-top: 80px;margin-left:80px" width="1000" height="500" src="https://www.youtube.com/embed/D6_e6yKH26Q"></iframe></center>
+    </div>
+</body>
+
+</html>

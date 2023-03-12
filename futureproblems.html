@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polar Bear Lives Matter</title>
+    <!-- Let it Snow! Provided by the WPress Doctor-->
+<div id="snow"></div>
+<style>
+	#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+</style>
+<script>
+	document.addEventListener('DOMContentLoaded', function(){
+        var script = document.createElement('script');
+        script.src = 'scripts/particles.min.js';
+        script.onload = 
+        function(){
+                particlesJS("snow", {
+                    "particles": {
+                        "number": {
+                            "value": 200,
+                            "density": {
+                                "enable": true,
+                                "value_area": 800
+                            }
+                        },
+                        "color": {
+                            "value": "#ffffff"
+                        },
+                        "opacity": {
+                            "value": 0.6,
+                            "random": false,
+                            "anim": {
+                                "enable": false
+                            }
+                        },
+                        "size": {
+                            "value": 4,
+                            "random": true,
+                            "anim": {
+                                "enable": false
+                            }
+                        },
+                        "line_linked": {
+                            "enable": false
+                        },
+                        "move": {
+                            "enable": true,
+                            "speed": 5,
+                            "direction": "bottom",
+                            "random": true,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": true,
+                                "rotateX": 300,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+                    "interactivity": {
+                        "events": {
+                            "onhover": {
+                                "enable": false
+                            },
+                            "onclick": {
+                                "enable": false
+                            },
+                            "resize": false
+                        }
+                    },
+                    "retina_detect": true
+                });
+        }
+        document.head.append(script);
+    });
+</script>
+</head>
+<body>
+    <!-- Menu -->
+    <h1 style="color:aliceblue;font-size:50px;text-align:center">Polar Bear Lives Matter   <a target="_blank" href="https://en.wikipedia.org/wiki/Polar_bear"><img width="50" src="https://en.wikipedia.org/static/images/icons/wikipedia.png"></a></h1>
+    <hr>
+    <center>
+    <table border="5" class="menu" style="background-color:#07f269;">
+        <tr>
+            <td style="width:450px;text-align:center;"><a  class="menu" href="index.html">Kutup Ayıları Hakkında</a></td>
+            <td style="width:450px;text-align:center;background-color:yellow"><a  class="menu"  href="futureproblems.html">Gelecekte Beklenen Sorunlar</a></td>
+            <td style="width:450px;text-align:center;"><a   class="menu" href="solutions.html">Bu Sorunların Önüne Nasıl Geçebiliriz?</a></td>
+            <td style="width:450px;text-align:center;"><a   class="menu" href="support.html">Nasıl Destek Oluruz?</a></td>
+        </tr>
+    </table>
+    </center>
+    <!-- Content -->
+        <div class="content">
+            <table style="text-align: center;">
+                <tr>
+                    <td><img style="margin-top: 80px;" width="400" height="400" src="imgs/livesmatter.png"></td>
+                    <td class="content">
+                        <h1>Kutuplar Eriyor</h1>
+                        <p>
+                            Küresel ısınma, Kuzey Kutbu‘nu dünyanın diğer bölgelerine göre dört kat daha hızlı etkiliyor. Bu aynı zamanda pek çok canlının da yaşam alanlarını kaybetmesi demek.
+
+                            Bu canlılardan biri olan kutup ayılarının yaşam ve avlanma alanı olan deniz buzu, yavaş yavaş yok oluyor. 
+
+                            Uzmanlar, kutup ayılarının temel besin kaynağı olan fokları avlayabilmek için ihtiyacı olan deniz buzunun oluşması için artık bir ay daha fazla beklemek zorunda olduğuna dikkat çekti.
+
+                            Kuzey Kutbu’nda her yıl deniz buzu Haziran ayının sonundan itibaren ortadan kalkar ve Kasım ayına doğru yeniden oluşur.
+
+                            Bu sürede kutup ayıları mecburen karasal kıyılarda yaşamaya çekilir ve ana besin kaynağına ulaşmak için buzun yeniden oluştuğu zamana kadar çok küçük balıklarla veya -nadiren- leşlerle beslenir.
+
+                            Ancak günümüz kutup ayıları, bir önceki nesillerine göre bu buzun oluşması için bir ay daha fazla beklemek zorun... <a target="_blank" href="https://yesilgazete.org/kutup-ayilari-iklim-krizi-yuzunden-gunde-2-kiloya-kadar-kaybediyor-aclik-nesillerini-tehlikeye-soktu/#:~:text=K%C3%BCresel%20%C4%B1s%C4%B1nma%2C%20Kuzey%20Kutbu'nu,Kuzey%20kasabalar%C4%B1n%20%C3%A7%C3%B6pl%C3%BCklerine%20inmeye%20ba%C5%9Flad%C4%B1.">[yesilgazete.org (Kalanı için tıklayınız.)]</a>
+                            
+                        </p>
+                    </td>
+                    <td>
+                        <img style="margin-top: 80px;" width="400" height="400" src="imgs/north.png">
+                    </td>
+
+                </tr>
+            </table>
+            <center>
+            <iframe style="margin-top:100px;margin-bottom:80px;" width="1000" height="500" src="https://www.youtube.com/embed/JyHzOOetQsI" title="Polar bears lose up to 2kg per day as climate crisis bites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </center>
+        </div>
+</body>
+</html>
